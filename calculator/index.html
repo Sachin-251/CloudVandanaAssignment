@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/tailwindcss" href="./style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./config.js"></script>
+    </head>
+    <body>
+        <div class="w-full h-screen bg-slate-900 flex justify-center items-center">
+            <div class="md:w-[30%] md:h-[70%] sm:w-[50%] xs:w-[65%] xs:h-[75%] xxs:w-full xxs:h-[85%] m-2 bg-slate-800 rounded-md shadow-md shadow-black flex flex-col items-center gap-4">
+                <input type="text" class="input w-full h-[30%] text-end px-4 bg-slate-800 text-4xl text-white font-semibold rounded-t-md">
+                <div class="w-full h-full p-4 grid grid-cols-4 gap-4">
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">C</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">AC</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">%</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">/</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">1</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">2</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">3</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">*</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">4</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">5</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">6</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">-</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">7</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">8</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">9</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">+</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">.</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700">0</button>
+                    <button class="button border-2 border-gray rounded-md text-blue h-fit p-2 font-playfair text-3xl shadow-md shadow-black font-bold bg-slate-700 col-span-2">=</button>
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
